@@ -1,29 +1,24 @@
-import Topbar from "./components/Topbar/Topbar";
-import Introduction from "./components/introduction/Introduction";
-import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
-import Contact from "./components/contact/Contact";
-import Testimonials from "./components/testimonials/Testimonials";
-import "./app.scss"
-
-import { useState } from "react";
-import Menu from "./components/menu/Menu";
-
-function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  return (
-    <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <div className="sections">
-        <Introduction />
-        <Portfolio />
-        <Works /> 
-        <Testimonials />
-        <Contact />
+import React, { Component } from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import resumeData from './resumeData';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Portfolio resumeData={resumeData}/>
+        <ContactUs resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
