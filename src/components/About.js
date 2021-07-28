@@ -16,14 +16,16 @@ export default class About extends Component {
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
-                  <span>{resumeData.name}</span>,
-                  <span>{resumeData.address}</span>
+                  <span>{resumeData.name}</span><br />
+                  <span>
+                    {resumeData.address}
+                  </span>
                   <br />
                   <span>
+                    <a href="tel:+91 8879200470">{resumeData.mobNo}</a><br />
                     <a href="mailto: harrysanas140@outlook.com">
                       {resumeData.gmail}
-                    </a><br />
-                    <a href="tel:+91 8879200470">{resumeData.mobNo}</a>
+                    </a>
                   </span>
                 </p>
               </div>
