@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-export default  class Resume extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
+import React from 'react';
+import resumeData from '../resumeData';
+export default  function Resume() {
     return (
       <section id="resume">
 
@@ -21,9 +20,6 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
                        </div>
                     </div>
                   )
@@ -67,4 +63,3 @@ export default  class Resume extends Component {
       </section>
     );
   }
-}

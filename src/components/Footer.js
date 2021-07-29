@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-export default class Footer extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
+/* eslint-disable react/jsx-no-target-blank */
+import React from 'react';
+import resumeData from '../resumeData';
+export default function Footer() {
     return (
       <footer>
       <div className="row">
@@ -11,7 +11,7 @@ export default class Footer extends Component {
               resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
                 return(
                   <li key={item.id}>
-                    <a href={item.url}>
+                    <a href={item.url} target="_blank">
                     <i className={item.className} />
                     </a>
                   </li>
@@ -25,5 +25,5 @@ export default class Footer extends Component {
       </div>
     </footer>
     );
-  }
+  
 }

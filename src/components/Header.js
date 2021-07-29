@@ -1,10 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { Component } from 'react';
-export default class Header extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
+import React from 'react';
+import resumeData from '../resumeData';
+export default function Header() {return (
       <React.Fragment>
       
       <header id="home">
@@ -49,4 +47,3 @@ export default class Header extends Component {
       </React.Fragment>
     );
   }
-}

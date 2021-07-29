@@ -27,8 +27,8 @@ let resumeData = {
     "I am an IT graducate at Birla College and a full stack web developer shaped by Masai School with an Energetic and aspiring Full Stack Web Developer. Skilled in JavaScript, React, Redux and MongoDB. Experienced in executing projects using React and Redux. Eager to take responsibility and fulfill the organizational objectives within a product based company.",
   address: "Thane, Maharashtra, India. 421 306",
   website: "https://github.com/Harshsanas",
-  gmail:"harrysanas140@outlook.com",
-  mobNo:"+91 8879200470",
+  gmail: "harrysanas140@outlook.com",
+  mobNo: "+91 88792 00470",
   education: [
     {
       UniversityName: "Masai School",
@@ -74,36 +74,41 @@ let resumeData = {
     },
   ],
   portfolio: [
-    
     {
       name: "React Weather App",
-      link: "https://harshit-weatherapp.netlify.app/",
+      link: "https://github.com/Harshsanas/React_WEATHERAPP.git",
+      tech: "React.js, Semantic UI",
+      desp:
+        "Weather App is basically a react app that helps user to see temperature and all whether climate of current time",
       imgurl:
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1627040115871/GhX5Vwfmg.png?auto=compress,format&format=webp",
     },
     {
       name: "Premier League Clone",
-      link: "https://cloning-premierleague.netlify.app/",
+      link: "https://github.com/Mangeshbk/Premier-League-clone.git",
+      tech: "JavaScript, HTML, CSS, MaterialUI",
+      desp:
+        "The Premier League often referred to eponymously us the top level of the English football league system.",
       imgurl:
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1627039818844/Yv6sU_JRu.png?auto=compress,format&format=webp",
     },
     {
       name: "Rentomojo Clone",
       link: "https://github.com/Harshsanas/Rentomojo.git",
+      tech: "React.js, ReduxJS, MaterialUI, MongoDB",
+      desp:
+        "A Rental platform of the finest quality daily need product items at valuable prices on EMI rents and purchase from it.",
       imgurl:
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1627054661887/qWAy-RMVu.png?auto=compress,format&format=webp",
     },
     {
       name: "Calendly Clone",
       link: "https://github.com/Harshsanas/Alaknanda.git",
+      tech: "JavaScript, HTML, CSS",
+      desp:
+        "Calendly is a web application for scheduling appointments and events. Collabarative project consisting of 4 members",
       imgurl:
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1615819865618/MBfewLTar.png?auto=compress,format&format=webp",
-    },
-    {
-      name: "Wrike.com Clone",
-      link: "https://github.com/Harshsanas/Gomti.git",
-      imgurl:
-        "https://cdn.hashnode.com/res/hashnode/image/upload/v1612802858542/IGKTdRZcM.png?auto=compress,format&format=webp",
     },
   ],
 };
