@@ -58,10 +58,10 @@ let resumeData = {
       skillname: "CSS",
     },
     {
-      skillname: "Reactjs",
+      skillname: "ReactJS",
     },
     {
-      skillname: "Redux",
+      skillname: "REDUX",
     },
     {
       skillname: "JavaScript",
