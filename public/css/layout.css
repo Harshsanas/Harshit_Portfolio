@@ -281,138 +281,7 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
 
-.bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
-}
-.bars .skills {
-  	margin-top: 36px;
-   list-style: none;
-}
-.bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
-}
-.bars li em {
-	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
-	text-transform: uppercase;
-   letter-spacing: 2px;
-	font-weight: normal;
-   position: relative;
-	top: -36px;
-}
-.bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
-}
-
-.reactjs {
-  	width: 75%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.redux {
-  	width: 70%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.javascript {
-  	width: 80%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 85%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 90%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.mongodb {
-  	width: 75%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-.express{
-  	width: 70%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-
-@-moz-keyframes Redux {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes Reactjs {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes JavaScript {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes MongoDb {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes Express {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes Express {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes MongoDb {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -946,3 +815,47 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+.skills {
+    /* background: #000;
+    color: white; */
+}
+.skills-center{
+    /* display: flex; */
+    justify-content: space-around;
+}
+.skills-center h3{
+    padding-top: 3rem;
+}
+.skills-center > div > p {
+    color: rgb(172, 167, 167);
+}
+@media only screen and (max-width: 800px){
+    .skills-center{
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        justify-content: center;
+    }
+    .skills-center > * {
+        text-align: center;
+    }
+    .skillImgs{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 590px){
+    .skills-center{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .skills-center > * {
+        text-align: center;
+    }
+}
+.skillImgs{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}

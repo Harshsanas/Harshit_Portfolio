@@ -24,7 +24,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am an IT graducate at Birla College and a full stack web developer shaped by Masai School with an Energetic and aspiring Full Stack Web Developer. Skilled in JavaScript, React, Redux and MongoDB. Experienced in executing projects using React and Redux. Eager to take responsibility and fulfill the organizational objectives within a product based company.",
+    "I am an IT graduate at Birla College and a full stack web developer shaped by Masai School with an Energetic and aspiring Full Stack Web Developer. Skilled in JavaScript, React, Redux and MongoDB. Experienced in executing projects using React and Redux. Eager to take responsibility and fulfill the organizational objectives within a product based company.",
   address: "Thane, Maharashtra, India. 421 306",
   website: "https://github.com/Harshsanas",
   gmail: "harrysanas140@outlook.com",
@@ -49,35 +49,12 @@ let resumeData = {
       YearOfPassing: "- June 2014",
     },
   ],
-  skillsDescription: "Your skills here",
-  skills: [
-    {
-      skillname: "HTML5",
-    },
-    {
-      skillname: "CSS",
-    },
-    {
-      skillname: "ReactJS",
-    },
-    {
-      skillname: "REDUX",
-    },
-    {
-      skillname: "JavaScript",
-    },
-    {
-      skillname: "Express Node Js",
-    },
-    {
-      skillname: "MongoDb",
-    },
-  ],
   portfolio: [
     {
       name: "React Weather App",
       link: "https://github.com/Harshsanas/React_WEATHERAPP.git",
       tech: "React.js, Semantic UI",
+      live:"https://harshit-weatherapp.netlify.app/",
       desp:
         "Weather App is basically a react app that helps user to see temperature and all whether climate of current time",
       imgurl:
@@ -87,6 +64,7 @@ let resumeData = {
       name: "Premier League Clone",
       link: "https://github.com/Mangeshbk/Premier-League-clone.git",
       tech: "JavaScript, HTML, CSS, MaterialUI",
+      live:"https://cloning-premierleague.netlify.app/",
       desp:
         "The Premier League often referred to eponymously us the top level of the English football league system.",
       imgurl:
@@ -104,6 +82,7 @@ let resumeData = {
     {
       name: "Calendly Clone",
       link: "https://github.com/Harshsanas/Alaknanda.git",
+      live:"https://calendly-clone-fawn.vercel.app/",
       tech: "JavaScript, HTML, CSS",
       desp:
         "Calendly is a web application for scheduling appointments and events. Collabarative project consisting of 4 members",
