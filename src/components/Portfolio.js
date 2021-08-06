@@ -2,7 +2,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 
 import React from 'react';
-import resumeData from '../resumeData';
 
 export default function Portfolio() {
 
@@ -14,9 +13,8 @@ export default function Portfolio() {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a href="https://drive.google.com/file/d/1y1MLnmROge729QLPBw7pvdjY85wxlCur/view?usp=sharing" className="image fit thumb" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627040115871/GhX5Vwfmg.png?auto=compress,format&format=webp" alt="final-capstone" />
-                  </a>
+                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627040115871/GhX5Vwfmg.png?auto=compress,format&format=webp" alt="final-capstone" />
+
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>React Weather App</h3>
@@ -48,9 +46,8 @@ export default function Portfolio() {
               </div>
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a href="https://drive.google.com/file/d/10shx-fhO4Ts8WMQd9_i0TVrSzMx18txG/view?usp=sharing" className="image fit thumb" target="_blank" rel="noopener noreferrer">
-                    <img src="https://images.ctfassets.net/k0lk9kiuza3o/6GX3BEB2StTLRWYuFW9UBj/23d815c203c7f9dbd25a024ce1842ee8/Homepage.png" alt="pic-some" />
-                  </a>
+                  <img src="https://images.ctfassets.net/k0lk9kiuza3o/6GX3BEB2StTLRWYuFW9UBj/23d815c203c7f9dbd25a024ce1842ee8/Homepage.png" alt="pic-some" />
+
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Calendly Clone</h3>
@@ -82,9 +79,7 @@ export default function Portfolio() {
               </div>
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a href="https://cloning-premierleague.netlify.app/" className="image fit thumb" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627039818844/Yv6sU_JRu.png?auto=compress,format&format=webp" alt="react-capstone" />
-                  </a>
+                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627039818844/Yv6sU_JRu.png?auto=compress,format&format=webp" alt="react-capstone" />
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Premier League Clone</h3>
@@ -116,9 +111,7 @@ export default function Portfolio() {
               </div>
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a href="/" className="image fit thumb" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627054661887/qWAy-RMVu.png?auto=compress,format&format=webp" alt="js-capstone" />
-                  </a>
+                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627054661887/qWAy-RMVu.png?auto=compress,format&format=webp" alt="js-capstone" />
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Rentomojo Clone</h3>
@@ -130,10 +123,11 @@ export default function Portfolio() {
                     <ul className="actions">
                       <div className="actions-wrapper">
                         <li>
-                          <a href="/" className="button project-button" target="_blank" rel="noopener noreferrer">
+                          <a href="https://drive.google.com/file/d/1qCTnKc8xBYae7AFxtP0ZYeVNfM0cInuK/view?usp=sharing" className="button project-button" target="_blank" rel="noopener noreferrer">
                             View Demo
                           </a>
                         </li>
+
                         <li>
                           <a href="https://github.com/Harshsanas/Rentomojo.git" className="button project-button brands" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github icon" />
