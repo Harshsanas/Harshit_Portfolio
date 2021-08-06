@@ -11,10 +11,10 @@ export default function Portfolio() {
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works.</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              <div className="article-wrapper" style={{display:'flex'}}>
+              <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
                   <h2>REACT WEATHER APP</h2>
-                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627040115871/GhX5Vwfmg.png?auto=compress,format&format=webp" alt="final-capstone" width="400px"/>
+                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627040115871/GhX5Vwfmg.png?auto=compress,format&format=webp" alt="final-capstone"/>
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h4>Description</h4>
