@@ -83,7 +83,7 @@ export default function Header() {return <React.Fragment>
                                                   }
                                                 )}
                                             </ul>
-                                            <a href="./Harshit - Full Stack Web Developer.pdf" download>
+                                            <a href="/Harshit Sanas_Resume.pdf" download>
                                               <button>
                                                 <i class="fa fa-download" download /> &nbsp;
                                                 DOWNLOAD RESUME

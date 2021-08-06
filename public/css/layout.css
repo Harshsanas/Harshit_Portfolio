@@ -388,6 +388,12 @@ ul#nav li.current a { color: #F06000; }
 	filter:alpha(opacity=100);
 }
 
+.portfolio-item > .card-flex {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
