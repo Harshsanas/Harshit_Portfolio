@@ -57,7 +57,7 @@ export default function Portfolio() {
 
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a href="https://github.com/AleemAlam/Urban-Company" className="image fit thumb" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/ajmalmiyan/Calendly-Clone.git" className="image fit thumb" target="_blank" rel="noopener noreferrer">
                     <img src="https://images.ctfassets.net/k0lk9kiuza3o/6GX3BEB2StTLRWYuFW9UBj/23d815c203c7f9dbd25a024ce1842ee8/Homepage.png" alt="pic-some" />
                   </a>
                   <div className="art-description">
