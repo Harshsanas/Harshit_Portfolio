@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import resumeData from '../resumeData';
 export default function ContactUs() {
@@ -15,7 +16,7 @@ export default function ContactUs() {
             <h4>
               Mobile No : <a href="tel:+91 8879200470">{resumeData.mobNo}</a>
               <br />
-              Linked in : <a href="https://www.linkedin.com/in/harshitsanas/">
+              Linked in : <a href="https://www.linkedin.com/in/harshitsanas/" target="_blank">
                 {resumeData.linkedinId}
               </a>
               <br />
