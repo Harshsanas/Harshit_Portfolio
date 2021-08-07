@@ -43,12 +43,9 @@ export default function Portfolio() {
                         </li>
                       </div>
                       <div className="languages">
-                        {/* <i className="devicon-css3-plain-wordmark technology"></i> */}
                         <i className="devicon-react-plain-wordmark technology" />
                         <i className="devicon-redux-original technology" />
-                        {/* <i className="devicon-mongodb-plain-wordmark technology"></i> */}
                         <i className="devicon-nodejs-plain technology" />
-                        {/* <i className="devicon-materialui-plain technology"></i> */}
                       </div>
                     </ul>
                   </div>
@@ -84,9 +81,9 @@ export default function Portfolio() {
                         </li>
                       </div>
                       <div className="languages">
+                        <i className="devicon-html5-plain-wordmark technology" />
                         <i className="devicon-css3-plain-wordmark technology" />
-                        <i className="devicon-react-plain-wordmark technology" />
-                        <i className="devicon-redux-original technology" />
+                        <i className="devicon-javascript-plain technology" />
                       </div>
                     </ul>
                   </div>
@@ -166,9 +163,9 @@ export default function Portfolio() {
                         </li>
                       </div>
                       <div className="languages">
-                        <i className="devicon-html5-plain-wordmark technology" />
-                        <i className="devicon-css3-plain-wordmark technology" />
-                        <i className="devicon-javascript-plain technology" />
+                        <i className="devicon-react-plain-wordmark technology" />
+                        <i className="devicon-redux-original technology" />
+                        <i className="devicon-nodejs-plain technology" />
                       </div>
                     </ul>
                   </div>
