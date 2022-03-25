@@ -5,12 +5,14 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import WorkExperience from "./components/WorkExperience";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header/>
         <About/>
+        <WorkExperience/>
         <Resume/>
         <Portfolio/>
         <ContactUs/>

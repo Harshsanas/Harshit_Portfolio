@@ -49,6 +49,15 @@ let resumeData = {
       YearOfPassing: "- June 2014",
     },
   ],
+  workexperience: [
+    {
+      CompanyName: "Sedin Technologies Pvt Ltd",
+      JobRole: "Software Developer Engineer - Level 1",
+      MonthOfJoining: "November 2021",
+      LastDate: "- Present",
+      Desp:"Working on Documentum D2 for building and User interface application."
+    },
+  ],
 };
   
   export default resumeData
