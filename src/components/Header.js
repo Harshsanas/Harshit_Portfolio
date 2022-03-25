@@ -87,12 +87,12 @@ export default function Header() {return <React.Fragment>
                                                     );
                                                   }
                                                 )}
-                                            </ul>{
-/*                                            <a href="/Harshit Sanas_Resume.pdf" download>
+                                            </ul>
+                                {/*            <a href="/Harshit Sanas_Resume.pdf" download>
                                               <button>
                                                 <i class="fa fa-download" download /> &nbsp; DOWNLOAD RESUME
                                               </button>
-                                            </a>*/}
+                                                </a>*/}
                                           </div>
                                         </div>
 
