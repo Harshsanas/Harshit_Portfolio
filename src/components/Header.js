@@ -23,6 +23,11 @@ export default function Header() {return <React.Fragment>
                                               </a>
                                             </li>
                                             <li>
+                                              <a className="smoothscroll" href="#work_experience">
+                                                Work Experience
+                                              </a>
+                                            </li>
+                                            <li>
                                               <a className="smoothscroll" href="#resume">
                                                 Education & Skills
                                               </a>
@@ -85,8 +90,7 @@ export default function Header() {return <React.Fragment>
                                             </ul>
                                             <a href="/Harshit Sanas_Resume.pdf" download>
                                               <button>
-                                                <i class="fa fa-download" download /> &nbsp;
-                                                DOWNLOAD RESUME
+                                                <i class="fa fa-download" download /> &nbsp; DOWNLOAD RESUME
                                               </button>
                                             </a>
                                           </div>
