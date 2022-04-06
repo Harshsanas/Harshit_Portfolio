@@ -55,7 +55,7 @@ let resumeData = {
       JobRole: "Software Developer Engineer - Level 1",
       MonthOfJoining: "November 2021",
       LastDate: "- Present",
-      Desp:"Working on Documentum D2 for building and User interface application."
+      Desp:"Worked on styling and to implement new feature in website majorly focused on Angular JS and Javascript. Working on Documentum D2. Designing UI for users and client and also connecting a to the backend server. Providing training on how to install documentation and configuring the steps for creating new application and workspace. Worked on stack technologies for one of the client."
     },
   ],
 };
