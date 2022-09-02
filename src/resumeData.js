@@ -55,7 +55,16 @@ let resumeData = {
       JobRole: "Software Developer Engineer - Level 1",
       MonthOfJoining: "November 2021",
       LastDate: "- Present",
-      Desp:"Worked on styling and to implement new feature in website majorly focused on Angular JS and Javascript. Working on Documentum D2. Designing UI for users and client and also connecting a to the backend server. Providing training on how to install documentation and configuring the steps for creating new application and workspace. Worked on stack technologies for one of the client."
+      Desp:
+        "Working on React JS and React Native for building web applications and mobile applications (Android and IOS) devices. Worked on styling and implementing new features on the website majorly focused on JavaScript. Working on Documentum D2. Designing UI for users and clients and also connecting to the backend server. Providing training on how to install documentation and configuring the steps for creating new applications and workspace.",
+    },
+    {
+      CompanyName: "ICICI BANK",
+      JobRole: "Officer",
+      MonthOfJoining: "August 2019",
+      LastDate: "- February 2020",
+      Desp:
+        "Handling Cash Departments and IT operations at front desk.",
     },
   ],
 };
