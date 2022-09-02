@@ -23,7 +23,7 @@ export default function Header() {return <React.Fragment>
                                               </a>
                                             </li>
                                             <li>
-                                              <a className="smoothscroll" href="#work_experience">
+                                              <a className="smoothscroll" href="#work-experience">
                                                 Work Experience
                                               </a>
                                             </li>
