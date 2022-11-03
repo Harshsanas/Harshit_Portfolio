@@ -59,12 +59,19 @@ let resumeData = {
         "Working on React JS and React Native for building web applications and mobile applications (Android and IOS) devices. Worked on styling and implementing new features on the website majorly focused on JavaScript. Working on Documentum D2. Designing UI for users and clients and also connecting to the backend server. Providing training on how to install documentation and configuring the steps for creating new applications and workspace.",
     },
     {
+      CompanyName: "FistBump Digital",
+      JobRole: "Web Developer",
+      MonthOfJoining: "March 2020",
+      LastDate: "- February 2021",
+      Desp:
+        "Working on JavaScript, React JS, HTML & CSS for building web applications. Worked on styling and implementing new features on the website majorly focused on JavaScript.",
+    },
+    {
       CompanyName: "ICICI BANK",
       JobRole: "Officer",
       MonthOfJoining: "August 2019",
       LastDate: "- February 2020",
-      Desp:
-        "Handling Cash Departments and IT operations at front desk.",
+      Desp: "Handling Cash Departments and IT operations at front desk.",
     },
   ],
 };
