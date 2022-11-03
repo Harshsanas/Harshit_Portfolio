@@ -73,7 +73,7 @@ export default function Header() {
             </a>
             <a href="/Harshit_Sanas_Cover-Letter.pdf" download>
               <button style={{ marginLeft: "10px" }}>
-                <i class="fa fa-download" download /> &nbsp; DOWNLOAD CV
+                <i class="fa fa-download" download /> &nbsp; DOWNLOAD Cover Letter
               </button>
             </a>
           </div>
