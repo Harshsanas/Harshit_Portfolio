@@ -68,12 +68,12 @@ export default function Header() {
             </ul>
             <a href="/Harshit_Sanas_Resume.pdf" download>
               <button>
-                <i class="fa fa-download" download /> &nbsp; DOWNLOAD RESUME
+                <i class="fa fa-download" download /> &nbsp; Download Resume
               </button>
             </a>
             <a href="/Harshit_Sanas_Cover-Letter.pdf" download>
               <button style={{ marginLeft: "10px" }}>
-                <i class="fa fa-download" download /> &nbsp; DOWNLOAD Cover Letter
+                <i class="fa fa-download" download /> &nbsp; Download Cover Letter
               </button>
             </a>
           </div>
