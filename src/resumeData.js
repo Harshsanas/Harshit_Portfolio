@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "https://www.linkedin.com/in/harshitsanas/",
   twitterid: "https://twitter.com/harrysanas140",
   roleDescription:
-    " An Energetic and aspiring Full Stack Web Developer. Skilled in JavaScript, React, Redux and MongoDB. Experienced in executing projects using React and Redux. Eager to take responsibility and fulfill the organizational objectives within a product based company.",
+    "A Software Engineer with more than 2 years of experience building a web application using MERN Stack and having strong knowledge in React JS, Node JS, Mongo DB, Express JS, and JavaScript. I am driven by a role that will leverage my strength in Full Stack Web Development.",
   socialLinks: [
     {
       name: "linkedin",
