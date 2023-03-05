@@ -66,7 +66,7 @@ export default function Header() {
                   }
                 )}
             </ul>
-            <a href="/Harshit_Sanas_Resume.pdf" download>
+            <a href="/Harshit_Sanas_Software_Developer_Resume.pdf" download>
               <button>
                 <i class="fa fa-download" download /> &nbsp; Download Resume
               </button>
