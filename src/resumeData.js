@@ -24,10 +24,10 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am an IT graduate at Birla College and a full stack web developer shaped by Masai School with an Energetic and aspiring Full Stack Web Developer. Skilled in JavaScript, React, Redux and MongoDB. Experienced in executing projects using React and Redux. Eager to take responsibility and fulfill the organizational objectives within a product based company.",
+    "Highly skilled Senior Web Developer with 4+ years of experience building high-performance, user-centric web applications. Expertise in React.js, Redux, Node.js, and modern web technologies, with a strong focus on delivering scalable solutions. Proven track record in leading teams, optimizing user engagement, and driving business outcomes. I am passionate about clean code practices, performance optimization, and delivering exceptional user experiences. I have demonstrated the ability to collaborate cross-functionally and precisely meet product goals.",
   address: "Thane, Maharashtra, India. 421 306",
   website: "https://github.com/Harshsanas",
-  gmail: "harrysanas140@outlook.com",
+  gmail: "harrysanas140@gmail.com",
   mobNo: "+91 88792 00470",
   education: [
     {
