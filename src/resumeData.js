@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "https://www.linkedin.com/in/harshitsanas/",
   twitterid: "https://twitter.com/harrysanas140",
   roleDescription:
-    "A Software Engineer with more than 2 years of experience building a web application using MERN Stack and having strong knowledge in React JS, Node JS, Mongo DB, Express JS, and JavaScript. I am driven by a role that will leverage my strength in Full Stack Web Development.",
+    "Senior Web Developer | Expert in React, Redux, & User-Centric Design | Transforming Ideas into Engaging Digital Experiences",
   socialLinks: [
     {
       name: "linkedin",
